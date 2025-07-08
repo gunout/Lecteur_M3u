@@ -356,9 +356,9 @@
                     <div class="info-label">CHAÎNES PRÉDÉFINIES</div>
                     <select id="preset-select" class="cyber-input">
                         <option value="">-- Sélectionnez une chaîne --</option>
-                        <option value="https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8">Antenne Reunion</option>
-                        <option value="https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8">Générations Tv</option>
-                        <option value="https://stream.ecable.tv/afrobeats/index.m3u8">Afrobeats</option>
+                        <option value="https://example.com/stream1.m3u8">Chaîne 1</option>
+                        <option value="https://example.com/stream2.m3u8">Chaîne 2</option>
+                        <option value="https://example.com/stream3.m3u8">Chaîne 3</option>
                     </select>
                     <div id="channel-list"></div>
                 </div>
@@ -456,10 +456,10 @@
             function initPresetChannels() {
                 // Exemple de chaînes - à remplacer par vos propres flux
                 const channels = [
-                    { name: "lCI", url: "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/btv/py/lci1.m3u8" },
-                    { name: "TV5 Monde", url: "https://ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8" },
-                    { name: "LCP", url: "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/LCP.m3u8" }
-                    { name: "Public Senat", url: "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/publicsenat.m3u8" }
+                    { name: "BFM", url: "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END" },
+                    { name: "Antenne Reunion", url: "https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8" },
+                    { name: "Générations Tv", url: "https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8" },
+                    { name: "Afrobeats", url: "" }
                 ];
                 
                 channels.forEach(channel => {
