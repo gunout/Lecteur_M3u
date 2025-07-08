@@ -356,9 +356,9 @@
                     <div class="info-label">CHAÎNES PRÉDÉFINIES</div>
                     <select id="preset-select" class="cyber-input">
                         <option value="">-- Sélectionnez une chaîne --</option>
-                        <option value="https://example.com/stream1.m3u8">Chaîne 1</option>
-                        <option value="https://example.com/stream2.m3u8">Chaîne 2</option>
-                        <option value="https://example.com/stream3.m3u8">Chaîne 3</option>
+                        <option value="https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8">Antenne Reunion</option>
+                        <option value="https://edge11.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8">Générations Tv</option>
+                        <option value=""></option>
                     </select>
                     <div id="channel-list"></div>
                 </div>
@@ -456,10 +456,10 @@
             function initPresetChannels() {
                 // Exemple de chaînes - à remplacer par vos propres flux
                 const channels = [
-                    { name: "Cyberpunk Radio", url: "https://example.com/cyberpunk.m3u8" },
-                    { name: "Neon News", url: "https://example.com/news.m3u8" },
-                    { name: "Synthwave FM", url: "https://example.com/synthwave.m3u8" },
-                    { name: "Tech Stream", url: "https://example.com/tech.m3u8" }
+                    { name: "Freedom", url: "http://freedomice.streamakaci.com/freedom.mp3" },
+                    { name: "Kreol Fm", url: "http://kreolfm.ice.infomaniak.ch/kreolfm-96.aac" },
+                    { name: "Exo Fm", url: "https://exofmreunion.ice.infomaniak.ch/exofmreunion-64.aac" },
+                    { name: "Reunion 1ere", url: "https://reunion.ice.infomaniak.ch/reunion-128.mp3" }
                 ];
                 
                 channels.forEach(channel => {
